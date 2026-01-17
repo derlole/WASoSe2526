@@ -104,6 +104,8 @@ Constraints: Garbage collection pauses must be avoided;Fine-grained control over
 Please provide a complete, working implementation.
 ```
 
+## Aufgabe 5 – Command Line Tool
+
 **Klarer Vorteil:** Bash, C, Go
 
 **Task:** Implement a command-line tool that chains multiple system commands and processes their output in real time.

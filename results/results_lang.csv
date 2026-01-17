@@ -1,0 +1,271 @@
+model,task,run,language
+ChatGPT-4o,1,1,cpp
+ChatGPT-4o,1,2,cpp
+ChatGPT-4o,1,3,cpp
+ChatGPT-4o,2,1,c
+ChatGPT-4o,2,2,go
+ChatGPT-4o,2,3,c
+ChatGPT-4o,3,1,go
+ChatGPT-4o,3,2,cpp
+ChatGPT-4o,3,3,python
+ChatGPT-4o,4,1,cpp
+ChatGPT-4o,4,2,cpp
+ChatGPT-4o,4,3,go
+ChatGPT-4o,5,1,python
+ChatGPT-4o,5,2,python
+ChatGPT-4o,5,3,python
+ChatGPT-4o,6,1,go
+ChatGPT-4o,6,2,python
+ChatGPT-4o,6,3,go
+ChatGPT-4o,7,1,python
+ChatGPT-4o,7,2,python
+ChatGPT-4o,7,3,python
+ChatGPT-4o,8,1,python
+ChatGPT-4o,8,2,python
+ChatGPT-4o,8,3,python
+ChatGPT-4o,9,1,python
+ChatGPT-4o,9,2,python
+ChatGPT-4o,9,3,python
+ChatGPT-4o,10,1,python
+ChatGPT-4o,10,2,python
+ChatGPT-4o,10,3,python
+ChatGPT-4o,11,1,python
+ChatGPT-4o,11,2,python
+ChatGPT-4o,11,3,python
+ChatGPT-4o,12,1,python
+ChatGPT-4o,12,2,python
+ChatGPT-4o,12,3,python
+ChatGPT-4o,13,1,python
+ChatGPT-4o,13,2,python
+ChatGPT-4o,13,3,python
+ChatGPT-4o,14,1,python
+ChatGPT-4o,14,2,python
+ChatGPT-4o,14,3,python
+ChatGPT-4o,15,1,python
+ChatGPT-4o,15,2,python
+ChatGPT-4o,15,3,python
+Claude Sonnet 4.5,1,1,python
+Claude Sonnet 4.5,1,2,python
+Claude Sonnet 4.5,1,3,cpp
+Claude Sonnet 4.5,2,1,python
+Claude Sonnet 4.5,2,2,python
+Claude Sonnet 4.5,2,3,rust
+Claude Sonnet 4.5,3,1,python
+Claude Sonnet 4.5,3,2,python
+Claude Sonnet 4.5,3,3,python
+Claude Sonnet 4.5,4,1,cpp
+Claude Sonnet 4.5,4,2,rust
+Claude Sonnet 4.5,4,3,rust
+Claude Sonnet 4.5,5,1,python
+Claude Sonnet 4.5,5,2,python
+Claude Sonnet 4.5,5,3,python
+Claude Sonnet 4.5,6,1,python
+Claude Sonnet 4.5,6,2,python
+Claude Sonnet 4.5,6,3,python
+Claude Sonnet 4.5,7,1,python
+Claude Sonnet 4.5,7,2,python
+Claude Sonnet 4.5,7,3,python
+Claude Sonnet 4.5,8,1,python
+Claude Sonnet 4.5,8,2,python
+Claude Sonnet 4.5,8,3,python
+Claude Sonnet 4.5,9,1,python
+Claude Sonnet 4.5,9,2,python
+Claude Sonnet 4.5,9,3,python
+Claude Sonnet 4.5,10,1,js
+Claude Sonnet 4.5,10,2,js
+Claude Sonnet 4.5,10,3,js
+Claude Sonnet 4.5,11,1,python
+Claude Sonnet 4.5,11,2,python
+Claude Sonnet 4.5,11,3,python
+Claude Sonnet 4.5,12,1,python
+Claude Sonnet 4.5,12,2,python
+Claude Sonnet 4.5,12,3,python
+Claude Sonnet 4.5,13,1,python
+Claude Sonnet 4.5,13,2,python
+Claude Sonnet 4.5,13,3,python
+Claude Sonnet 4.5,14,1,python
+Claude Sonnet 4.5,14,2,python
+Claude Sonnet 4.5,14,3,python
+Claude Sonnet 4.5,15,1,python
+Claude Sonnet 4.5,15,2,python
+Claude Sonnet 4.5,15,3,python
+Llama3.1,1,1,cpp
+Llama3.1,1,2,python
+Llama3.1,1,3,cpp
+Llama3.1,2,1,python
+Llama3.1,2,2,python
+Llama3.1,2,3,python
+Llama3.1,3,1,python
+Llama3.1,3,2,python
+Llama3.1,3,3,python
+Llama3.1,4,1,java
+Llama3.1,4,2,cpp
+Llama3.1,4,3,java
+Llama3.1,5,1,python
+Llama3.1,5,2,python
+Llama3.1,5,3,python
+Llama3.1,6,1,c
+Llama3.1,6,2,python
+Llama3.1,6,3,python
+Llama3.1,7,1,python
+Llama3.1,7,2,python
+Llama3.1,7,3,python
+Llama3.1,8,1,python
+Llama3.1,8,2,python
+Llama3.1,8,3,python
+Llama3.1,9,1,python
+Llama3.1,9,2,python
+Llama3.1,9,3,python
+Llama3.1,10,1,python
+Llama3.1,10,2,python
+Llama3.1,10,3,python
+Llama3.1,11,1,python
+Llama3.1,11,2,python
+Llama3.1,11,3,python
+Llama3.1,12,1,python
+Llama3.1,12,2,python
+Llama3.1,12,3,python
+Llama3.1,13,1,python
+Llama3.1,13,2,python
+Llama3.1,13,3,python
+Llama3.1,14,1,python
+Llama3.1,14,2,python
+Llama3.1,14,3,python
+Llama3.1,15,1,python
+Llama3.1,15,2,python
+Llama3.1,15,3,python
+deepseekcoderv2,1,1,python
+deepseekcoderv2,1,2,python
+deepseekcoderv2,1,3,python
+deepseekcoderv2,2,1,python
+deepseekcoderv2,2,2,python
+deepseekcoderv2,2,3,python
+deepseekcoderv2,3,1,js
+deepseekcoderv2,3,2,python
+deepseekcoderv2,3,3,python
+deepseekcoderv2,4,1,java
+deepseekcoderv2,4,2,java
+deepseekcoderv2,4,3,java
+deepseekcoderv2,5,1,python
+deepseekcoderv2,5,2,python
+deepseekcoderv2,5,3,python
+deepseekcoderv2,6,1,js
+deepseekcoderv2,6,2,js
+deepseekcoderv2,6,3,python
+deepseekcoderv2,7,1,python
+deepseekcoderv2,7,2,python
+deepseekcoderv2,7,3,python
+deepseekcoderv2,8,1,python
+deepseekcoderv2,8,2,python
+deepseekcoderv2,8,3,python
+deepseekcoderv2,9,1,python
+deepseekcoderv2,9,2,python
+deepseekcoderv2,9,3,python
+deepseekcoderv2,10,1,js
+deepseekcoderv2,10,2,js
+deepseekcoderv2,10,3,js
+deepseekcoderv2,11,1,python
+deepseekcoderv2,11,2,python
+deepseekcoderv2,11,3,python
+deepseekcoderv2,12,1,python
+deepseekcoderv2,12,2,python
+deepseekcoderv2,12,3,python
+deepseekcoderv2,13,1,python
+deepseekcoderv2,13,2,python
+deepseekcoderv2,13,3,python
+deepseekcoderv2,14,1,python
+deepseekcoderv2,14,2,python
+deepseekcoderv2,14,3,python
+deepseekcoderv2,15,1,python
+deepseekcoderv2,15,2,python
+deepseekcoderv2,15,3,python
+mistral-small,1,1,python
+mistral-small,1,2,python
+mistral-small,1,3,python
+mistral-small,2,1,python
+mistral-small,2,2,python
+mistral-small,2,3,python
+mistral-small,3,1,python
+mistral-small,3,2,python
+mistral-small,3,3,python
+mistral-small,4,1,java
+mistral-small,4,2,python
+mistral-small,4,3,python
+mistral-small,5,1,python
+mistral-small,5,2,python
+mistral-small,5,3,python
+mistral-small,6,1,python
+mistral-small,6,2,python
+mistral-small,6,3,python
+mistral-small,7,1,python
+mistral-small,7,2,python
+mistral-small,7,3,python
+mistral-small,8,1,python
+mistral-small,8,2,python
+mistral-small,8,3,python
+mistral-small,9,1,python
+mistral-small,9,2,python
+mistral-small,9,3,python
+mistral-small,10,1,python
+mistral-small,10,2,python
+mistral-small,10,3,python
+mistral-small,11,1,python
+mistral-small,11,2,python
+mistral-small,11,3,python
+mistral-small,12,1,python
+mistral-small,12,2,python
+mistral-small,12,3,python
+mistral-small,13,1,python
+mistral-small,13,2,python
+mistral-small,13,3,python
+mistral-small,14,1,python
+mistral-small,14,2,python
+mistral-small,14,3,python
+mistral-small,15,1,python
+mistral-small,15,2,python
+mistral-small,15,3,python
+qwen2.5coder,1,1,python
+qwen2.5coder,1,2,cpp
+qwen2.5coder,1,3,cpp
+qwen2.5coder,2,1,python
+qwen2.5coder,2,2,python
+qwen2.5coder,2,3,python
+qwen2.5coder,3,1,python
+qwen2.5coder,3,2,python
+qwen2.5coder,3,3,python
+qwen2.5coder,4,1,java
+qwen2.5coder,4,2,java
+qwen2.5coder,4,3,java
+qwen2.5coder,5,1,python
+qwen2.5coder,5,2,python
+qwen2.5coder,5,3,python
+qwen2.5coder,6,1,python
+qwen2.5coder,6,2,python
+qwen2.5coder,6,3,python
+qwen2.5coder,7,1,python
+qwen2.5coder,7,2,python
+qwen2.5coder,7,3,python
+qwen2.5coder,8,1,python
+qwen2.5coder,8,2,python
+qwen2.5coder,8,3,python
+qwen2.5coder,9,1,python
+qwen2.5coder,9,2,python
+qwen2.5coder,9,3,python
+qwen2.5coder,10,1,python
+qwen2.5coder,10,2,python
+qwen2.5coder,10,3,python
+qwen2.5coder,11,1,python
+qwen2.5coder,11,2,python
+qwen2.5coder,11,3,python
+qwen2.5coder,12,1,python
+qwen2.5coder,12,2,python
+qwen2.5coder,12,3,python
+qwen2.5coder,13,1,python
+qwen2.5coder,13,2,python
+qwen2.5coder,13,3,python
+qwen2.5coder,14,1,python
+qwen2.5coder,14,2,python
+qwen2.5coder,14,3,python
+qwen2.5coder,15,1,python
+qwen2.5coder,15,2,python
+qwen2.5coder,15,3,python

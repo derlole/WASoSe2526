@@ -1,0 +1,239 @@
+🔍 ANALYSE: Sprachwahlverhalten von LLM-Modellen
+================================================================================
+
+✓ Daten geladen: 270 Einträge
+
+================================================================================
+  1. GESAMTVERTEILUNG DER SPRACHEN
+================================================================================
+  python          228 ( 84.4%)
+  cpp              13 (  4.8%)
+  js                9 (  3.3%)
+  java              9 (  3.3%)
+  go                5 (  1.9%)
+  c                 3 (  1.1%)
+  rust              3 (  1.1%)
+
+================================================================================
+  2. SPRACHVERTEILUNG PRO MODELL
+================================================================================
+
+  Modell                      Python      C++       Go     Java     Rust        C       JS
+  ------------------------------------------------------------------------------
+  ChatGPT-4o                   71.1%    13.3%    11.1%     0.0%     0.0%     4.4%     0.0%
+  Claude Sonnet 4.5            82.2%     4.4%     0.0%     0.0%     6.7%     0.0%     6.7%
+  Llama3.1                     86.7%     6.7%     0.0%     4.4%     0.0%     2.2%     0.0%
+  deepseekcoderv2              80.0%     0.0%     0.0%     6.7%     0.0%     0.0%    13.3%
+  mistral-small                97.8%     0.0%     0.0%     2.2%     0.0%     0.0%     0.0%
+  qwen2.5coder                 88.9%     4.4%     0.0%     6.7%     0.0%     0.0%     0.0%
+
+================================================================================
+  3. ANALYSE SPEZIALISIERTER AUFGABEN (Tasks 1-4)
+================================================================================
+
+  Task 1: High-Performance (Running Median)
+     Ideale Sprachen: c, cpp, rust
+     Modell                     Korrekt  Teilweise   Falsch  Gesamt
+     ------------------------------------------------------------
+     ChatGPT-4o                       3          0        0       3
+     Claude Sonnet 4.5                1          0        2       3
+     Llama3.1                         2          0        1       3
+     deepseekcoderv2                  0          0        3       3
+     mistral-small                    0          0        3       3
+     qwen2.5coder                     2          0        1       3
+
+  Task 2: Systemprogrammierung (Filesystem Monitoring)
+     Ideale Sprachen: c, rust
+     Modell                     Korrekt  Teilweise   Falsch  Gesamt
+     ------------------------------------------------------------
+     ChatGPT-4o                       2          1        0       3
+     Claude Sonnet 4.5                1          0        2       3
+     Llama3.1                         0          0        3       3
+     deepseekcoderv2                  0          0        3       3
+     mistral-small                    0          0        3       3
+     qwen2.5coder                     0          0        3       3
+
+  Task 3: TCP Server (Concurrency)
+     Ideale Sprachen: cpp, go, rust
+     Modell                     Korrekt  Teilweise   Falsch  Gesamt
+     ------------------------------------------------------------
+     ChatGPT-4o                       2          0        1       3
+     Claude Sonnet 4.5                0          0        3       3
+     Llama3.1                         0          0        3       3
+     deepseekcoderv2                  0          0        3       3
+     mistral-small                    0          0        3       3
+     qwen2.5coder                     0          0        3       3
+
+  Task 4: Parallelität mit Deadline
+     Ideale Sprachen: cpp, java, rust
+     Modell                     Korrekt  Teilweise   Falsch  Gesamt
+     ------------------------------------------------------------
+     ChatGPT-4o                       2          1        0       3
+     Claude Sonnet 4.5                3          0        0       3
+     Llama3.1                         3          0        0       3
+     deepseekcoderv2                  3          0        0       3
+     mistral-small                    1          0        2       3
+     qwen2.5coder                     3          0        0       3
+
+================================================================================
+  4. GESAMTBEWERTUNG SPEZIALISIERTE TASKS (1-4)
+================================================================================
+
+  Rang  Modell                       Score    Korrekt    Teilweise   Falsch
+  ----------------------------------------------------------------------
+  1     ChatGPT-4o                     83%          9            2        1
+  2     Claude Sonnet 4.5              42%          5            0        7
+  3     Llama3.1                       42%          5            0        7
+  4     qwen2.5coder                   42%          5            0        7
+  5     deepseekcoderv2                25%          3            0        9
+  6     mistral-small                   8%          1            0       11
+
+================================================================================
+  5. KONSISTENZANALYSE
+================================================================================
+
+  Modell                      Konsistenz
+  ----------------------------------------
+  mistral-small                    97.8%
+  qwen2.5coder                     97.8%
+  deepseekcoderv2                  95.6%
+  Claude Sonnet 4.5                93.3%
+  Llama3.1                         93.3%
+  ChatGPT-4o                       88.9%
+
+================================================================================
+  6. PYTHON-QUOTE BEI STANDARDAUFGABEN (Tasks 5-15)
+================================================================================
+
+  Modell                       Python-Quote
+  --------------------------------------------
+  mistral-small                      100.0%
+  qwen2.5coder                       100.0%
+  Llama3.1                            97.0%
+  ChatGPT-4o                          93.9%
+  Claude Sonnet 4.5                   90.9%
+  deepseekcoderv2                     84.8%
+
+================================================================================
+  7. PYTHON-QUOTE PRO AUFGABE
+================================================================================
+
+  Task   Name                                        Python%   Gesamt
+  --------------------------------------------------------------------
+  1      Task 1 (spec.)                                55.6%       18
+  2      Task 2 (spec.)                                77.8%       18
+  3      Task 3 (spec.)                                83.3%       18
+  4      Task 4 (spec.)                                11.1%       18
+  5      Task 5                                       100.0%       18
+  6      Task 6                                        72.2%       18
+  7      Task 7                                       100.0%       18
+  8      Task 8                                       100.0%       18
+  9      Task 9                                       100.0%       18
+  10     Task 10                                       66.7%       18
+  11     Task 11                                      100.0%       18
+  12     Task 12                                      100.0%       18
+  13     Task 13                                      100.0%       18
+  14     Task 14                                      100.0%       18
+  15     Task 15                                      100.0%       18
+
+================================================================================
+  8. DETAILLIERTE SPRACHVERTEILUNG PRO AUFGABE
+================================================================================
+
+  Task 1:
+    Sprache          Count        %
+    python              10    55.6%
+    cpp                  8    44.4%
+
+  Task 2:
+    Sprache          Count        %
+    python              14    77.8%
+    c                    2    11.1%
+    go                   1     5.6%
+    rust                 1     5.6%
+
+  Task 3:
+    Sprache          Count        %
+    python              15    83.3%
+    cpp                  1     5.6%
+    go                   1     5.6%
+    js                   1     5.6%
+
+  Task 4:
+    Sprache          Count        %
+    java                 9    50.0%
+    cpp                  4    22.2%
+    python               2    11.1%
+    rust                 2    11.1%
+    go                   1     5.6%
+
+  Task 5:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 6:
+    Sprache          Count        %
+    python              13    72.2%
+    go                   2    11.1%
+    js                   2    11.1%
+    c                    1     5.6%
+
+  Task 7:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 8:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 9:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 10:
+    Sprache          Count        %
+    python              12    66.7%
+    js                   6    33.3%
+
+  Task 11:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 12:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 13:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 14:
+    Sprache          Count        %
+    python              18   100.0%
+
+  Task 15:
+    Sprache          Count        %
+    python              18   100.0%
+
+================================================================================
+  ZUSAMMENFASSUNG DER ERKENNTNISSE
+================================================================================
+
+  Datengrundsatz:
+     • Modelle: 6
+     • Aufgaben: 15
+     • Durchläufe pro Task: 3
+     • Gesamteinträge: 270
+
+  Bestes Modell für spezialisierte Tasks (1-4):
+     ChatGPT-4o (83%)
+
+  Python-Quote (Gesamt): 84.4%
+
+  Konsistentestes Modell: mistral-small (97.8%)
+
+  Größter Python-Bias: mistral-small (100.0% bei Tasks 5-15)
+
+  Größter Python-Bias: mistral-small (100.0% bei Tasks 5-15)
+
+================================================================================
